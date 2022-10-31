@@ -1,0 +1,77 @@
+#+title: Lektion 1 - Nätverksmodeller
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* [[./index.org][Kursstruktur]]
+* [[./lektion1.org][Lektion 1]]
+
+* Exempel på olika
+** I/O bus
+För användning på till exempel kretskort
+** Serial/parallel ports
+** Personal Area Networks (PAN)
+Exempel:
+- Bluetooth
+- IEEE 802.15 WPAN
+- RS232("com port")
+- USB
+- Firewire
+** Local Area Networks (LAN)
+Exempel:
+- Ethernet
+- IEEE 802.11 WLAN
+** Metropolitan Area Networks (MAN) (Stadsnät)
+Example:
+- Ethernet
+- ATM
+- FDDI
+** Wide Area Netwroks (WAN)
+Exampe:
+- The internet /(Debable)/
+- The Public Service Telephone Network (PSTN)
+* Punnkt-till-punkt-förbindelser
+** Källkodning
+Representera data på annat sätt, (digitalisera), samt komprimera
+kan vara förstörande (JPEG) eller ej (zip)
+** Felhantering
+Lägger till felrättande eller felupptäckande kod.
+
+*Felrättande*: Som kan försöka gissa vad som skulle vara där om det blir fel
+*Felupptäckande*: Som kan upptäcka om det blivit fel
+
+Mottagaren kan skicka NACK, Negative acknowledgedment, som gör att sändaren skickar igen.
+Om det blir rätt så får man tillbaka ACK.
+** Flödesstyrning
+Exempel kan mottagaren vänta med att skicka ACK tillbaka om det går för snabbt
+** Modulation
+Modem, gör om till elektrisk representation. Oftast implementerad med \( \sin x \) vågor.
+
+* OSI-modellen
+7. Applikation - Ge tillgång till nätverksresurser
+6. Presentation (/inte i internet/) - Komprimera, enkryptera och översätta data.
+5. Session (/inte i internet)/ -  Att skapa, underhålla och stänga sessioner.
+4. Transport - Skapa pålitlig end-to-end system för meddelanden och error
+3. Nätverk - Skapar procedurer för att överföra packets från en nod till en på ett annat nätverk.
+2. Data länk -
+1. Fysisk -
+
+* TCP/IP - Internetprotokollet
+** Applikationslagret
+Lagret där applikationer skapar användardata och kommunicerar med andra applikationer.
+Kommunikationspartners utgörs ofta av olika protokoll såsom client-server eller peer-to-peer.
+Processer läggs till i form av ports.
+Det är här alla kända protokoll implementeras (HTTP, SSH, FTP, SMTP).
+** Transport
+Utför host-to-host kommunikation. Den skapar en kanal för överföringen.
+UDP (User Datagram Protocol) överför utan felkoll. TCP (Transmission Control Protocol) gör
+datan pålitlig och errorhanterad men är desvärre lite långsammare
+** Nätverk
+Internetlagret som ger en abstraherad vy av de underliggande nätverkskopplingarna. Det
+ vanligaste protokollet är Internet-protokollet som definierar IP-adresser. Dess funktion är
+ att transportera data vidare till en annan host som har närmre koppling till
+ slutdestinationen.
+
+** Data-länk
+Länklagret difinierar nätverksmetoderna som beskriver hur hosten kommunicerar med in och
+ugående routrar. Det används för att flytta packets mellan internetlagret hos två olika hosts.
+TCP/IP använder sig av olika protokoll för att avgöra hur och vad som ska tas med och läggas
+till från Nätverkslagret till Länklagret som exempelvis MAC-adresser.

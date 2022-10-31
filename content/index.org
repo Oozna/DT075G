@@ -1,0 +1,50 @@
+#+title: Struktur
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+
+* Länkar till olika kapitel
+** [[./index.org][Kursstruktur]]
+** [[./lektion1.org][Lektion 1]]
+
+
+
+* Upplägg
+** Quizzar
+Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan. [[https://elearn20.miun.se/moodle/course/view.php?id=12368&section=1][Länk]]
+*** TODO Quiz 1
+*** TODO Quiz 2
+*** TODO Quiz 3
+*** TODO Quiz 4
+*** TODO Quiz 5
+*** TODO Quiz 6
+*** TODO Quiz 7
+*** TODO Quiz 8/9
+*** TODO Quiz 10
+*** TODO Quiz 11/12
+*** TODO Quiz 13/14
+*** TODO Quiz 16
+*** TODO Quiz 18
+*** TODO Quiz 19
+*** TODO Quiz 20/21
+*** TODO Quiz 22
+*** TODO Quiz 24/25
+*** TODO Quiz 26/27
+** Labbar
+*** TODO Labb 1 - Bandbreddsmätning och felsökning i nätverkURL
+*** TODO Labb 2 - Avlyssning av nät med WiresharkURL
+*** TODO Labb 3 - Simulering av fys-lager
+*** TODO Labb 4 - Bildkodning
+** Tentamen
+Miniräknare medtages.
+50% rätt på varje del samt 50%+ totalt.
+** Gamla tentor
+[[http://apachepersonal.miun.se/~mageri/kurser/mks/tentor/][Länk]]
+** Kursbok
+Data communications and networking, [[https://github.com/aboelkassem/References_Books/blob/master/Data%20Communications%20and%20Networking%20By%20Behrouz%20A.Forouzan.pdf][Länk till bok]]
+** Inspelningar
+Finns sedan Covid-19 åren. 32 timmar föreläsning och 8 timmar övningar. [[http://apachepersonal.miun.se/~mageri/kurser/mks/mks-inspelningar/2020/][Länk till videor]]
+
+* Mål
+- /Felsöka/ och /konfigurera/ närverk.
+- Vi ska kunna /planera/ och /designa/ nätverk.
+- Vi ska kunna skapa egna /datakommunikationsprotokoll/ eller använda redan befintliga.
+- Vi ska kunna räkna på /prestandamått/ på närverk. t.ex. kapacitet, packetförluster mm.

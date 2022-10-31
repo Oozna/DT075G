@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Struktur</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Struktur</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#org16a3bb3">Länkar till olika kapitel</a>
+<ul>
+<li><a href="#org7b01110">Kursstruktur</a></li>
+<li><a href="#org4a62ccd">Lektion 1</a></li>
+</ul>
+</li>
+<li><a href="#org8059010">Upplägg</a>
+<ul>
+<li><a href="#org606d6e1">Quizzar</a>
+<ul>
+<li><a href="#org370d53d"><span class="todo TODO">TODO</span> Quiz 1</a></li>
+<li><a href="#org5d60403"><span class="todo TODO">TODO</span> Quiz 2</a></li>
+<li><a href="#orge8e6557"><span class="todo TODO">TODO</span> Quiz 3</a></li>
+<li><a href="#org3d148e5"><span class="todo TODO">TODO</span> Quiz 4</a></li>
+<li><a href="#orge6f35a1"><span class="todo TODO">TODO</span> Quiz 5</a></li>
+<li><a href="#orgec4f94e"><span class="todo TODO">TODO</span> Quiz 6</a></li>
+<li><a href="#org8cbddfb"><span class="todo TODO">TODO</span> Quiz 7</a></li>
+<li><a href="#orge8bf776"><span class="todo TODO">TODO</span> Quiz 8/9</a></li>
+<li><a href="#org26a8102"><span class="todo TODO">TODO</span> Quiz 10</a></li>
+<li><a href="#org4f14fcd"><span class="todo TODO">TODO</span> Quiz 11/12</a></li>
+<li><a href="#org7e64e13"><span class="todo TODO">TODO</span> Quiz 13/14</a></li>
+<li><a href="#org57baa39"><span class="todo TODO">TODO</span> Quiz 16</a></li>
+<li><a href="#org6d65d43"><span class="todo TODO">TODO</span> Quiz 18</a></li>
+<li><a href="#org17da5cc"><span class="todo TODO">TODO</span> Quiz 19</a></li>
+<li><a href="#orge7f4182"><span class="todo TODO">TODO</span> Quiz 20/21</a></li>
+<li><a href="#orgdcfb090"><span class="todo TODO">TODO</span> Quiz 22</a></li>
+<li><a href="#orge099e82"><span class="todo TODO">TODO</span> Quiz 24/25</a></li>
+<li><a href="#orgb52f9a8"><span class="todo TODO">TODO</span> Quiz 26/27</a></li>
+</ul>
+</li>
+<li><a href="#org2a3b5cb">Labbar</a>
+<ul>
+<li><a href="#org94028f5"><span class="todo TODO">TODO</span> Labb 1 - Bandbreddsmätning och felsökning i nätverkURL</a></li>
+<li><a href="#org60b0574"><span class="todo TODO">TODO</span> Labb 2 - Avlyssning av nät med WiresharkURL</a></li>
+<li><a href="#org750cf8b"><span class="todo TODO">TODO</span> Labb 3 - Simulering av fys-lager</a></li>
+<li><a href="#org3e4d43d"><span class="todo TODO">TODO</span> Labb 4 - Bildkodning</a></li>
+</ul>
+</li>
+<li><a href="#orgae256c5">Tentamen</a></li>
+<li><a href="#org9910d7e">Gamla tentor</a></li>
+<li><a href="#orge27eb60">Kursbok</a></li>
+<li><a href="#org65032cc">Inspelningar</a></li>
+</ul>
+</li>
+<li><a href="#orgc7693d2">Mål</a></li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-org16a3bb3" class="outline-2">
+<h2 id="org16a3bb3">Länkar till olika kapitel</h2>
+<div class="outline-text-2" id="text-org16a3bb3">
+</div>
+<div id="outline-container-org7b01110" class="outline-3">
+<h3 id="org7b01110"><a href="./index.html">Kursstruktur</a></h3>
+</div>
+<div id="outline-container-org4a62ccd" class="outline-3">
+<h3 id="org4a62ccd"><a href="./lektion1.html">Lektion 1</a></h3>
+</div>
+</div>
+
+
+
+<div id="outline-container-org8059010" class="outline-2">
+<h2 id="org8059010">Upplägg</h2>
+<div class="outline-text-2" id="text-org8059010">
+</div>
+<div id="outline-container-org606d6e1" class="outline-3">
+<h3 id="org606d6e1">Quizzar</h3>
+<div class="outline-text-3" id="text-org606d6e1">
+<p>
+Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan
+</p>
+</div>
+<div id="outline-container-org370d53d" class="outline-4">
+<h4 id="org370d53d"><span class="todo TODO">TODO</span> Quiz 1</h4>
+</div>
+<div id="outline-container-org5d60403" class="outline-4">
+<h4 id="org5d60403"><span class="todo TODO">TODO</span> Quiz 2</h4>
+</div>
+<div id="outline-container-orge8e6557" class="outline-4">
+<h4 id="orge8e6557"><span class="todo TODO">TODO</span> Quiz 3</h4>
+</div>
+<div id="outline-container-org3d148e5" class="outline-4">
+<h4 id="org3d148e5"><span class="todo TODO">TODO</span> Quiz 4</h4>
+</div>
+<div id="outline-container-orge6f35a1" class="outline-4">
+<h4 id="orge6f35a1"><span class="todo TODO">TODO</span> Quiz 5</h4>
+</div>
+<div id="outline-container-orgec4f94e" class="outline-4">
+<h4 id="orgec4f94e"><span class="todo TODO">TODO</span> Quiz 6</h4>
+</div>
+<div id="outline-container-org8cbddfb" class="outline-4">
+<h4 id="org8cbddfb"><span class="todo TODO">TODO</span> Quiz 7</h4>
+</div>
+<div id="outline-container-orge8bf776" class="outline-4">
+<h4 id="orge8bf776"><span class="todo TODO">TODO</span> Quiz 8/9</h4>
+</div>
+<div id="outline-container-org26a8102" class="outline-4">
+<h4 id="org26a8102"><span class="todo TODO">TODO</span> Quiz 10</h4>
+</div>
+<div id="outline-container-org4f14fcd" class="outline-4">
+<h4 id="org4f14fcd"><span class="todo TODO">TODO</span> Quiz 11/12</h4>
+</div>
+<div id="outline-container-org7e64e13" class="outline-4">
+<h4 id="org7e64e13"><span class="todo TODO">TODO</span> Quiz 13/14</h4>
+</div>
+<div id="outline-container-org57baa39" class="outline-4">
+<h4 id="org57baa39"><span class="todo TODO">TODO</span> Quiz 16</h4>
+</div>
+<div id="outline-container-org6d65d43" class="outline-4">
+<h4 id="org6d65d43"><span class="todo TODO">TODO</span> Quiz 18</h4>
+</div>
+<div id="outline-container-org17da5cc" class="outline-4">
+<h4 id="org17da5cc"><span class="todo TODO">TODO</span> Quiz 19</h4>
+</div>
+<div id="outline-container-orge7f4182" class="outline-4">
+<h4 id="orge7f4182"><span class="todo TODO">TODO</span> Quiz 20/21</h4>
+</div>
+<div id="outline-container-orgdcfb090" class="outline-4">
+<h4 id="orgdcfb090"><span class="todo TODO">TODO</span> Quiz 22</h4>
+</div>
+<div id="outline-container-orge099e82" class="outline-4">
+<h4 id="orge099e82"><span class="todo TODO">TODO</span> Quiz 24/25</h4>
+</div>
+<div id="outline-container-orgb52f9a8" class="outline-4">
+<h4 id="orgb52f9a8"><span class="todo TODO">TODO</span> Quiz 26/27</h4>
+</div>
+</div>
+<div id="outline-container-org2a3b5cb" class="outline-3">
+<h3 id="org2a3b5cb">Labbar</h3>
+<div class="outline-text-3" id="text-org2a3b5cb">
+</div>
+<div id="outline-container-org94028f5" class="outline-4">
+<h4 id="org94028f5"><span class="todo TODO">TODO</span> Labb 1 - Bandbreddsmätning och felsökning i nätverkURL</h4>
+</div>
+<div id="outline-container-org60b0574" class="outline-4">
+<h4 id="org60b0574"><span class="todo TODO">TODO</span> Labb 2 - Avlyssning av nät med WiresharkURL</h4>
+</div>
+<div id="outline-container-org750cf8b" class="outline-4">
+<h4 id="org750cf8b"><span class="todo TODO">TODO</span> Labb 3 - Simulering av fys-lager</h4>
+</div>
+<div id="outline-container-org3e4d43d" class="outline-4">
+<h4 id="org3e4d43d"><span class="todo TODO">TODO</span> Labb 4 - Bildkodning</h4>
+</div>
+</div>
+<div id="outline-container-orgae256c5" class="outline-3">
+<h3 id="orgae256c5">Tentamen</h3>
+<div class="outline-text-3" id="text-orgae256c5">
+<p>
+Miniräknare medtages.
+50% rätt på varje del samt 50%+ totalt.
+</p>
+</div>
+</div>
+<div id="outline-container-org9910d7e" class="outline-3">
+<h3 id="org9910d7e">Gamla tentor</h3>
+<div class="outline-text-3" id="text-org9910d7e">
+<p>
+<a href="http://apachepersonal.miun.se/~mageri/kurser/mks/tentor/">Länk</a>
+</p>
+</div>
+</div>
+<div id="outline-container-orge27eb60" class="outline-3">
+<h3 id="orge27eb60">Kursbok</h3>
+<div class="outline-text-3" id="text-orge27eb60">
+<p>
+Data communications and networking, <a href="https://github.com/aboelkassem/References_Books/blob/master/Data%20Communications%20and%20Networking%20By%20Behrouz%20A.Forouzan.pdf">Länk till bok</a>
+</p>
+</div>
+</div>
+<div id="outline-container-org65032cc" class="outline-3">
+<h3 id="org65032cc">Inspelningar</h3>
+<div class="outline-text-3" id="text-org65032cc">
+<p>
+Finns sedan Covid-19 åren. 32 timmar föreläsning och 8 timmar övningar. <a href="http://apachepersonal.miun.se/~mageri/kurser/mks/mks-inspelningar/2020/">Länk till videor</a>
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-orgc7693d2" class="outline-2">
+<h2 id="orgc7693d2">Mål</h2>
+<div class="outline-text-2" id="text-orgc7693d2">
+<ul class="org-ul">
+<li><i>Felsöka</i> och <i>konfigurera</i> närverk.</li>
+<li>Vi ska kunna <i>planera</i> och <i>designa</i> nätverk.</li>
+<li>Vi ska kunna skapa egna <i>datakommunikationsprotokoll</i> eller använda redan befintliga.</li>
+<li>Vi ska kunna räkna på <i>prestandamått</i> på närverk. t.ex. kapacitet, packetförluster mm.</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
+</div>
+</body>
+</html>

@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Lektion 1 - Nätverksmodeller</title>
+<meta name="generator" content="Org Mode" />
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/css/readtheorg.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/lib/js/jquery.stickytableheaders.min.js"></script>
+<script type="text/javascript" src="https://fniessen.github.io/org-html-themes/src/readtheorg_theme/js/readtheorg.js"></script>
+<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        displayAlign: "center",
+        displayIndent: "0em",
+
+        "HTML-CSS": { scale: 100,
+                        linebreaks: { automatic: "false" },
+                        webFont: "TeX"
+                       },
+        SVG: {scale: 100,
+              linebreaks: { automatic: "false" },
+              font: "TeX"},
+        NativeMML: {scale: 100},
+        TeX: { equationNumbers: {autoNumber: "AMS"},
+               MultLineWidth: "85%",
+               TagSide: "right",
+               TagIndent: ".8em"
+             }
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_HTML"></script>
+</head>
+<body>
+<div id="content" class="content">
+<h1 class="title">Lektion 1 - Nätverksmodeller</h1>
+<div id="table-of-contents" role="doc-toc">
+<h2>Table of Contents</h2>
+<div id="text-table-of-contents" role="doc-toc">
+<ul>
+<li><a href="#orgb714ef5">Kursstruktur</a></li>
+<li><a href="#org7ebef4a">Lektion 1</a></li>
+<li><a href="#org9d25df8">Exempel på olika</a>
+<ul>
+<li><a href="#org289125d">I/O bus</a></li>
+<li><a href="#org17c1217">Serial/parallel ports</a></li>
+<li><a href="#org0390421">Personal Area Networks (PAN)</a></li>
+<li><a href="#org8e65bf9">Local Area Networks (LAN)</a></li>
+<li><a href="#orgd7e211b">Metropolitan Area Networks (MAN) (Stadsnät)</a></li>
+<li><a href="#org2a7259d">Wide Area Netwroks (WAN)</a></li>
+</ul>
+</li>
+<li><a href="#org5223345">Punnkt-till-punkt-förbindelser</a>
+<ul>
+<li><a href="#org0a64723">Källkodning</a></li>
+<li><a href="#org91c3562">Felhantering</a></li>
+<li><a href="#org9c09c03">Flödesstyrning</a></li>
+<li><a href="#org2d0c244">Modulation</a></li>
+</ul>
+</li>
+<li><a href="#org076bfdc">OSI-modellen</a></li>
+<li><a href="#orge5cfa73">TCP/IP - Internetprotokollet</a>
+<ul>
+<li><a href="#orgb0e0b54">Applikationslagret</a></li>
+<li><a href="#org0664cc0">Transport</a></li>
+<li><a href="#orgd4c0afe">Nätverk</a></li>
+<li><a href="#org6a4486c">Data-länk</a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+<div id="outline-container-orgb714ef5" class="outline-2">
+<h2 id="orgb714ef5"><a href="./index.html">Kursstruktur</a></h2>
+</div>
+<div id="outline-container-org7ebef4a" class="outline-2">
+<h2 id="org7ebef4a"><a href="./lektion1.html">Lektion 1</a></h2>
+</div>
+
+<div id="outline-container-org9d25df8" class="outline-2">
+<h2 id="org9d25df8">Exempel på olika</h2>
+<div class="outline-text-2" id="text-org9d25df8">
+</div>
+<div id="outline-container-org289125d" class="outline-3">
+<h3 id="org289125d">I/O bus</h3>
+<div class="outline-text-3" id="text-org289125d">
+<p>
+För användning på till exempel kretskort
+</p>
+</div>
+</div>
+<div id="outline-container-org17c1217" class="outline-3">
+<h3 id="org17c1217">Serial/parallel ports</h3>
+</div>
+<div id="outline-container-org0390421" class="outline-3">
+<h3 id="org0390421">Personal Area Networks (PAN)</h3>
+<div class="outline-text-3" id="text-org0390421">
+<p>
+Exempel:
+</p>
+<ul class="org-ul">
+<li>Bluetooth</li>
+<li>IEEE 802.15 WPAN</li>
+<li>RS232("com port")</li>
+<li>USB</li>
+<li>Firewire</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org8e65bf9" class="outline-3">
+<h3 id="org8e65bf9">Local Area Networks (LAN)</h3>
+<div class="outline-text-3" id="text-org8e65bf9">
+<p>
+Exempel:
+</p>
+<ul class="org-ul">
+<li>Ethernet</li>
+<li>IEEE 802.11 WLAN</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-orgd7e211b" class="outline-3">
+<h3 id="orgd7e211b">Metropolitan Area Networks (MAN) (Stadsnät)</h3>
+<div class="outline-text-3" id="text-orgd7e211b">
+<p>
+Example:
+</p>
+<ul class="org-ul">
+<li>Ethernet</li>
+<li>ATM</li>
+<li>FDDI</li>
+</ul>
+</div>
+</div>
+<div id="outline-container-org2a7259d" class="outline-3">
+<h3 id="org2a7259d">Wide Area Netwroks (WAN)</h3>
+<div class="outline-text-3" id="text-org2a7259d">
+<p>
+Exampe:
+</p>
+<ul class="org-ul">
+<li>The internet <i>(Debable)</i></li>
+<li>The Public Service Telephone Network (PSTN)</li>
+</ul>
+</div>
+</div>
+</div>
+<div id="outline-container-org5223345" class="outline-2">
+<h2 id="org5223345">Punnkt-till-punkt-förbindelser</h2>
+<div class="outline-text-2" id="text-org5223345">
+</div>
+<div id="outline-container-org0a64723" class="outline-3">
+<h3 id="org0a64723">Källkodning</h3>
+<div class="outline-text-3" id="text-org0a64723">
+<p>
+Representera data på annat sätt, (digitalisera), samt komprimera
+kan vara förstörande (JPEG) eller ej (zip)
+</p>
+</div>
+</div>
+<div id="outline-container-org91c3562" class="outline-3">
+<h3 id="org91c3562">Felhantering</h3>
+<div class="outline-text-3" id="text-org91c3562">
+<p>
+Lägger till felrättande eller felupptäckande kod.
+</p>
+
+<p>
+<b>Felrättande</b>: Som kan försöka gissa vad som skulle vara där om det blir fel
+<b>Felupptäckande</b>: Som kan upptäcka om det blivit fel
+</p>
+
+<p>
+Mottagaren kan skicka NACK, Negative acknowledgedment, som gör att sändaren skickar igen.
+Om det blir rätt så får man tillbaka ACK.
+</p>
+</div>
+</div>
+<div id="outline-container-org9c09c03" class="outline-3">
+<h3 id="org9c09c03">Flödesstyrning</h3>
+<div class="outline-text-3" id="text-org9c09c03">
+<p>
+Exempel kan mottagaren vänta med att skicka ACK tillbaka om det går för snabbt
+</p>
+</div>
+</div>
+<div id="outline-container-org2d0c244" class="outline-3">
+<h3 id="org2d0c244">Modulation</h3>
+<div class="outline-text-3" id="text-org2d0c244">
+<p>
+Modem, gör om till elektrisk representation. Oftast implementerad med \( \sin x \) vågor.
+</p>
+</div>
+</div>
+</div>
+
+<div id="outline-container-org076bfdc" class="outline-2">
+<h2 id="org076bfdc">OSI-modellen</h2>
+<div class="outline-text-2" id="text-org076bfdc">
+<ol class="org-ol">
+<li>Applikation - Ge tillgång till nätverksresurser</li>
+<li>Presentation (<i>inte i internet</i>) - Komprimera, enkryptera och översätta data.</li>
+<li>Session (<i>inte i internet)</i> -  Att skapa, underhålla och stänga sessioner.</li>
+<li>Transport - Skapa pålitlig end-to-end system för meddelanden och error</li>
+<li>Nätverk - Skapar procedurer för att överföra packets från en nod till en på ett annat nätverk.</li>
+<li>Data länk -</li>
+<li>Fysisk -</li>
+</ol>
+</div>
+</div>
+
+<div id="outline-container-orge5cfa73" class="outline-2">
+<h2 id="orge5cfa73">TCP/IP - Internetprotokollet</h2>
+<div class="outline-text-2" id="text-orge5cfa73">
+</div>
+<div id="outline-container-orgb0e0b54" class="outline-3">
+<h3 id="orgb0e0b54">Applikationslagret</h3>
+<div class="outline-text-3" id="text-orgb0e0b54">
+<p>
+Lagret där applikationer skapar användardata och kommunicerar med andra applikationer.
+Kommunikationspartners utgörs ofta av olika protokoll såsom client-server eller peer-to-peer.
+Processer läggs till i form av ports.
+Det är här alla kända protokoll implementeras (HTTP, SSH, FTP, SMTP).
+</p>
+</div>
+</div>
+<div id="outline-container-org0664cc0" class="outline-3">
+<h3 id="org0664cc0">Transport</h3>
+<div class="outline-text-3" id="text-org0664cc0">
+<p>
+Utför host-to-host kommunikation. Den skapar en kanal för överföringen.
+UDP (User Datagram Protocol) överför utan felkoll. TCP (Transmission Control Protocol) gör
+datan pålitlig och errorhanterad men är desvärre lite långsammare
+</p>
+</div>
+</div>
+<div id="outline-container-orgd4c0afe" class="outline-3">
+<h3 id="orgd4c0afe">Nätverk</h3>
+<div class="outline-text-3" id="text-orgd4c0afe">
+<p>
+Internetlagret som ger en abstraherad vy av de underliggande nätverkskopplingarna. Det
+ vanligaste protokollet är Internet-protokollet som definierar IP-adresser. Dess funktion är
+ att transportera data vidare till en annan host som har närmre koppling till
+ slutdestinationen.
+</p>
+</div>
+</div>
+
+<div id="outline-container-org6a4486c" class="outline-3">
+<h3 id="org6a4486c">Data-länk</h3>
+<div class="outline-text-3" id="text-org6a4486c">
+<p>
+Länklagret difinierar nätverksmetoderna som beskriver hur hosten kommunicerar med in och
+ugående routrar. Det används för att flytta packets mellan internetlagret hos två olika hosts.
+TCP/IP använder sig av olika protokoll för att avgöra hur och vad som ska tas med och läggas
+till från Nätverkslagret till Länklagret som exempelvis MAC-adresser.
+</p>
+</div>
+</div>
+</div>
+</div>
+<div id="postamble" class="status">
+<p class="creator"><a href="https://www.gnu.org/software/emacs/">Emacs</a> 28.2 (<a href="https://orgmode.org">Org</a> mode 9.5.5)</p>
+</div>
+</body>
+</html>
