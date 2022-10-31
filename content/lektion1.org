@@ -1,5 +1,6 @@
 #+title: Lektion 1 - Nätverksmodeller
-#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/blob/master/src/simple_inline/simple_inline.theme
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://github.com/jessekelly881/Rethink/blob/master/rethink.css" />
+#+OPTIONS: toc:nil num:nil html-style:nil
 
 * [[./index.org][Kursstruktur]]
 * [[./lektion1.org][Lektion 1]]
