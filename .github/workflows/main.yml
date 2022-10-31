@@ -20,6 +20,12 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
           
+      - name: Install Emacs
+        run: sudo apt install emacs-nox --yes
+        
+      - name: Build the site
+        run:  ./build.sh
+
       - name: SFTP Deploy
         uses: wlixcc/SFTP-Deploy-Action@v1.2.1
         with:
@@ -30,7 +36,7 @@ jobs:
 
           
           # will put all file under this path
-          local_path: ./public/ # default is ./*
+          local_path: ./public/* # default is ./*
           # files will copy to under remote_path
           remote_path: /userhome/erjo2002/public_html/DT075G
           
