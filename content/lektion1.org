@@ -1,5 +1,5 @@
 #+title: Lektion 1 - Nätverksmodeller
-#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://github.com/jessekelly881/Rethink/blob/master/rethink.css" />
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil num:nil html-style:nil
 
 * [[./index.org][Kursstruktur]]
