@@ -1,5 +1,5 @@
 #+title: Lektion 1 - Nätverksmodeller
-#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/blob/master/src/white_clean/white_clean.theme
 
 * [[./index.org][Kursstruktur]]
 * [[./lektion1.org][Lektion 1]]
