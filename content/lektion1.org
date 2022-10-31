@@ -4,7 +4,7 @@
 * [[./index.org][Kursstruktur]]
 * [[./lektion1.org][Lektion 1]]
 
-* Exempel på olika distanser
+** Exempel på olika distanser
 ** I/O bus
 För användning på till exempel kretskort
 ** Serial/parallel ports
@@ -51,8 +51,8 @@ Modem, gör om till elektrisk representation. Oftast implementerad med \( \sin x
 5. Session (/inte i internet)/ -  Att skapa, underhålla och stänga sessioner.
 4. Transport - Skapa pålitlig end-to-end system för meddelanden och error
 3. Nätverk - Skapar procedurer för att överföra packets från en nod till en på ett annat nätverk.
-2. Data länk -
-1. Fysisk -
+2. Data länk - Ger node-node transfer. LLC eller MAC.
+1. Fysisk - Gör om bitar till exempelvis elektriska, optiska eller radio för att föra över världen
 
 * TCP/IP - Internetprotokollet
 ** Applikationslagret
