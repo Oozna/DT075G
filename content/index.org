@@ -10,7 +10,7 @@
 * Upplägg
 ** Quizzar
 Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan. [[https://elearn20.miun.se/moodle/course/view.php?id=12368&section=1][Länk]]
-*** TODO Quiz 1
+*** DONE Quiz 1
 *** TODO Quiz 2
 *** TODO Quiz 3
 *** TODO Quiz 4

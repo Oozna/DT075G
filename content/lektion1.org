@@ -62,7 +62,7 @@ Kommunikationspartners utgörs ofta av olika protokoll såsom client-server elle
 Processer läggs till i form av ports.
 Det är här alla kända protokoll implementeras (HTTP, SSH, FTP, SMTP).
 ** Transport
-Utför host-to-host kommunikation. Den skapar en kanal för överföringen.
+Utför host-to-host kommunikation, process-to-process. Den skapar en kanal för överföringen.
 UDP (User Datagram Protocol) överför utan felkoll. TCP (Transmission Control Protocol) gör
 datan pålitlig och errorhanterad men är desvärre lite långsammare
 ** Nätverk
