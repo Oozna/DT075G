@@ -4,7 +4,7 @@
 * [[./index.org][Kursstruktur]]
 * [[./lektion1.org][Lektion 1]]
 
-* Exempel på olika
+* Exempel på olika distanser
 ** I/O bus
 För användning på till exempel kretskort
 ** Serial/parallel ports
