@@ -1,5 +1,5 @@
 #+title: Lektion 1 - Nätverksmodeller
-#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/blob/master/src/white_clean/white_clean.theme
+#+SETUPFILE: https://gitlab.com/OlMon/org-themes/-/blob/master/src/simple_inline/simple_inline.theme
 
 * [[./index.org][Kursstruktur]]
 * [[./lektion1.org][Lektion 1]]
