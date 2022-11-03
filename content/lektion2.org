@@ -1,6 +1,5 @@
 #+title: Lektion 2
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
-#+OPTIONS: toc:nil num:nil html-style:nil
 
 
 * Länkar
