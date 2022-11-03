@@ -1,10 +1,8 @@
 #+title: Struktur
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-* Länkar till olika kapitel
-** [[./index.org][Kursstruktur]]
-** [[./lektion1.org][Lektion 1]]
-
+* Länkar
+| [[./index.org][Kursöversikt]] | [[./lektion1.org][Lektion 1]]  | [[./lektion2.org][Lektion 2]]  |
 
 
 * Upplägg

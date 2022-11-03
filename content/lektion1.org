@@ -2,7 +2,8 @@
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 #+OPTIONS: toc:nil num:nil html-style:nil
 
-* [[./index.org][Kursstruktur]]
+* Länkar
+| [[./index.org][Kursöversikt]] | [[./lektion1.org][Lektion 1]]  | [[./lektion2.org][Lektion 2]]  |
 * [[./lektion1.org][Lektion 1]]
 
 ** Exempel på olika distanser

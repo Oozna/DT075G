@@ -1,0 +1,133 @@
+#+title: Lektion 2
+#+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
+#+OPTIONS: toc:nil num:nil html-style:nil
+
+
+* Länkar
+| [[./index.org][Kursöversikt]] | [[./lektion1.org][Lektion 1]]  | [[./lektion2.org][Lektion 2]]  |
+
+* [[./lektion1.org][Lektion 2]]
+** Gammal Tentauppgift
+Nyttodata = Payload
+
+Overheaddata = Headers
+
+Goodput (GP) = Nyttodata överfört till översta lagret.
+
+R = Datatakt (Bitrate)
+
+\[ GP = R \cdot \frac{L}{L+n\cdot h} \]
+** Adresser
+Router är en dator med minst 2 närverkskort.
+
+*MAC-adress* är 48-bitar: 00-00-E2-4F-54-04
+
+MAC kallas för fysisk adress eftersom den används inom ett fysiskt nätverk, alltså allt innan
+router
+
+Din dator har två IP-adresser (Vi fokuserar på IPv4 men finns också IPv6)
+ - *Publik IP-adress*, 32 bitar: 193.10.250.187
+ - *Privat NAT-IP-adress* (Network Address Translation): 10.14.1.63
+
+Det finns som mest \( 2^{32}\approx 4\cdot10^{9} \) adresser. Därför används NAT-servrar så att flera kan använda
+samma IP-adress. Många vill därför gå över till IPv6.
+
+*IP-subnetmask*: 255.255.0.0, används för att se om man sitter på samma fysiska adress så datorn
+kan slippa skicka via routern.
+
+*DNS-namn* (Domain name Service), ett sätt att översätta IP-adresser till namn som är läsliga
+för människor
+
+*URL*
+*** System för översättning mellan olika adresseringstekniker
++ /ARP/ (Address Resolution Protocol) översätter IP-adress till fysisk adress. (Lager 2 och 3)
++ /DHCP/ (Dynamic Host Configuration Protocol) kan ge varje dator en ledig IP-adress. Talar om
+  för en dator med en viss fysisk adress vilken dess IP-adress är vid varje omstart. (Lager 5)
++ /DNS/ (Domain Name Service) översätter IP-adresser och DNS-namn. Uppdelad på massor av
+  databaser fast för användaren kan det ses som en gigantisk.
++ /NAT/ (Network Address Tranlation) är en server som modifierar IP-paketen genom att byta up intern avsändar IP till extern IP.
+
+
+
+
+
+
+
+** TCP-IP
+*** Fysiska
+Här finns inga paket utan endast enstaka bitar. Detta kan inkludera:
+
+- Kontaker, Hur många kontakter.
+- Elektriska nivår, Hur många volt.
+- Modulation, översättning till (primärt) sinusvågor.
+- Multiplextekniker, Hur man kan överföra flera saker samtidigt.
+- Bitsynkronisering, vilket tempo som gäller.
+- Kretskoppling
+Exempel: RS232 ("com"-porten), USB-porten.
+*** Data-länk
+PDU = Ram
+
+Både 'head' och 'tail' frames.
+
+Tail brukar vara en felupptäckande kod.
+
+Ansvarar för att flytta data från en nod till nästa.
+
+
+- Fleraccessprotokoll (Multiple access control MAC) för att undvika krock om 2 "börjar
+  prata samtidigt"
+- Adressering inom LAN. MAC-adresser för att skilja på fysiska datorer.
+- Felhantering
+
+*** Nätverk
+Ansvarar för att skicka datan hela vägen till slutgiltiga datorn.
+
+IP-protokollet.
+
+Oftast ändrar routern inte IP-paketet men om den har /NAT/ så kan den ändra.
+
+
+
+
+*** Transport
+**** TCP
+Tar data från applikationslagret och lägger på headers som inkluderar segmentnummer så att
+mottagaren vet vilken ordning datan kommer eller om det saknas något paket.
+
+Virtuell kretskoppling så att det kommer i rätt ordning. Levereras som en byte-ström.
+**** Både TCP & UDP
+Lägger till headers för vilken port det är på mottagardatorn. Alltså vilken process.
+Likt ärendenummer när du kontaktar ex CSN, så de vet vem som ska ta hand om ärendet.
+*** Applikation
+Ansvarig för att tillhandahålla tjänster för användaren.
+
+- HTTP (HTTPS)
+- Telnet (SSH)
+- SMTP
+- FTP (SFTP)
+** Bit
+Bit är antal ja/nej frågor man måste ställa för att få ut datan.
+\( 5 \text{ bit }=2^{5} \) val.
+
+kbit betyder \( 1000 \). *INTE* 1024.
+
+** Bandbredd
+- Analog bandbredd i Herz (Hz)
+
+- Net bit rate = Digital bandbreddskapacitet i Bit/s = Datatakt - feulupptäckande koder.
+  (Är den man oftast talar om när man pratar om Bitrate)
+
+- Gross bit rate = På fysiska lagret, alltså hur många bitar blir det totalt.
+
+- Max genomströmningshastighet = Maximal throughput
+
+- Genomströmningshastighet = Throughput = Digital bandbreddskonsumtion
+
+- Goodput = Filöverföringshastighet (filstorlek/sekunder).
+
+** Nätverk
+Nätverk är ett kluster av nätverk som ofta kallas /nod/ som är kopplade med /länkar/.
+
+En nod kan vara en dator, router, hub, switch, printer, modem eller vafan som helst som kan
+skicka eller ta emot data
+
