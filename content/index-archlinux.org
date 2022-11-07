@@ -1,14 +1,15 @@
 #+title: Struktur
 #+SETUPFILE: https://fniessen.github.io/org-html-themes/org/theme-readtheorg.setup
 
-| [[./index.org][Kursöversikt]] | [[./lektion1.org][Lektion 1]] | [[./lektion2.org][Lektion 2]] | [[./lektion3.org][Lektion 3]]  |
+* Länkar
+| [[./index.org][Kursöversikt]] | [[./lektion1.org][Lektion 1]]  | [[./lektion2.org][Lektion 2]]  |
 
 
 * Upplägg
 ** Quizzar
 Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan. [[https://elearn20.miun.se/moodle/course/view.php?id=12368&section=1][Länk]]
 *** DONE Quiz 1
-*** DONE Quiz 2
+*** TODO Quiz 2
 *** TODO Quiz 3
 *** TODO Quiz 4
 *** TODO Quiz 5
