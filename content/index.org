@@ -7,24 +7,24 @@
 * Upplägg
 ** Quizzar
 Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan. [[https://elearn20.miun.se/moodle/course/view.php?id=12368&section=1][Länk]]
-*** DONE Quiz 1
-*** DONE Quiz 2
-*** TODO Quiz 3
-*** TODO Quiz 4
-*** TODO Quiz 5
-*** TODO Quiz 6
-*** TODO Quiz 7
-*** TODO Quiz 8/9
-*** TODO Quiz 10
-*** TODO Quiz 11/12
-*** TODO Quiz 13/14
-*** TODO Quiz 16
-*** TODO Quiz 18
-*** TODO Quiz 19
-*** TODO Quiz 20/21
-*** TODO Quiz 22
-*** TODO Quiz 24/25
-*** TODO Quiz 26/27
+*** DONE Quiz 2.  [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968580][Länk]]
+*** DONE Quiz 1. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968581][Länk]]
+*** TODO Quiz 3. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968582][Länk]]
+*** TODO Quiz 4. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968583][Länk]]
+*** TODO Quiz 5. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968584][Länk]]
+*** TODO Quiz 6. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968585][Länk]]
+*** TODO Quiz 7. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968586][Länk]]
+*** TODO Quiz 8/9. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968587][Länk]]
+*** TODO Quiz 10. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968588][Länk]]
+*** TODO Quiz 11/12. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968589][Länk]]
+*** TODO Quiz 13/14. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968590][Länk]]
+*** TODO Quiz 16. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968591][Länk]]
+*** TODO Quiz 18. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968592][Länk]]
+*** TODO Quiz 19. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968593][Länk]]
+*** TODO Quiz 20/21. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968594][Länk]]
+*** TODO Quiz 22. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968595][Länk]]
+*** TODO Quiz 24/25. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968596][Länk]]
+*** TODO Quiz 26/27. [[https://elearn20.miun.se/moodle/mod/quiz/view.php?id=968597][Länk]]
 ** Labbar
 *** TODO Labb 1 - Bandbreddsmätning och felsökning i nätverkURL. [[https://elearn20.miun.se/moodle/mod/url/view.php?id=968570][Instruktioner]]
 *** TODO Labb 2 - Avlyssning av nät med WiresharkURL. [[http://apachepersonal.miun.se/~mageri/kurser/Datornatverk/eng_lab/lab2/][Instruktioner]]
