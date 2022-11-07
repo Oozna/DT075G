@@ -26,10 +26,10 @@ Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan.
 *** TODO Quiz 24/25
 *** TODO Quiz 26/27
 ** Labbar
-*** TODO Labb 1 - Bandbreddsmätning och felsökning i nätverkURL
-*** TODO Labb 2 - Avlyssning av nät med WiresharkURL
-*** TODO Labb 3 - Simulering av fys-lager
-*** TODO Labb 4 - Bildkodning
+*** TODO Labb 1 - Bandbreddsmätning och felsökning i nätverkURL. [[https://elearn20.miun.se/moodle/mod/url/view.php?id=968570][Instruktioner]]
+*** TODO Labb 2 - Avlyssning av nät med WiresharkURL. [[http://apachepersonal.miun.se/~mageri/kurser/Datornatverk/eng_lab/lab2/][Instruktioner]]
+*** TODO Labb 3 - Simulering av fys-lager. [[https://apachepersonal.miun.se/~mageri/kurser/mks/labbar/lab3-wifi.pdf][Instruktioner]]
+*** TODO Labb 4 - Bildkodning. [[http://apachepersonal.miun.se/~mageri/kurser/mks/labbar/labb-bildkoder/][Instruktioner]]
 ** Tentamen
 Miniräknare medtages.
 50% rätt på varje del samt 50%+ totalt.
