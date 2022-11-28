@@ -1,4 +1,16 @@
 #+title: Lektion5
-
+#+latex_header: \usepackage{siunitx}
 
 #+include: ./includes/nav.org
+
+* Inledande fråga
+En ledning har basbandbredden \( B=\SI{1}{\mega\hertz} \). Vilken bitrate är möjlig med:
+
+** NRZ-kodning
+\( R=2B=\SI{2}{\mega\bit\per\second} \)
+Tack vare Nyqvist
+** Manchesterkodning
+Ingen Nyqvist
+\( R=B=\SI{1}{\bit\per\second} \)
+** 8PAM
+\( R=f\cdot \log_{2}M=2B\cdot\log_{2}M \)
