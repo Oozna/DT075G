@@ -28,8 +28,8 @@ Moodle quizzar 70% rätt för godkänt. Måste göras för att få göra tentan.
 ** Labbar
 *** DONE Labb 1 - Bandbreddsmätning och felsökning i nätverkURL. [[https://elearn20.miun.se/moodle/mod/url/view.php?id=968570][Instruktioner]]
 *** DONE Labb 2 - Avlyssning av nät med WiresharkURL. [[http://apachepersonal.miun.se/~mageri/kurser/Datornatverk/eng_lab/lab2/][Instruktioner]]
-*** TODO Labb 3 - Simulering av fys-lager. [[https://apachepersonal.miun.se/~mageri/kurser/mks/labbar/lab3-wifi.pdf][Instruktioner]]
-*** TODO Labb 4 - Bildkodning. [[http://apachepersonal.miun.se/~mageri/kurser/mks/labbar/labb-bildkoder/][Instruktioner]]
+*** DONE Labb 3 - Simulering av fys-lager. [[https://apachepersonal.miun.se/~mageri/kurser/mks/labbar/lab3-wifi.pdf][Instruktioner]]
+*** DONE Labb 4 - Bildkodning. [[http://apachepersonal.miun.se/~mageri/kurser/mks/labbar/labb-bildkoder/][Instruktioner]]
 ** Tentamen
 Miniräknare medtages.
 50% rätt på varje del samt 50%+ totalt.
